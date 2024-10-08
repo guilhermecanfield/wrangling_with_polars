@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "polars_studies"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Canfield <guilherme.canfield87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^1.9.0"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
